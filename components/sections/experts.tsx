@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { Separator } from "../ui/separator";
 
 export default function Experts() {
   const [tab, setTab] = React.useState(
@@ -27,6 +28,7 @@ export default function Experts() {
           <p className="text-[30px] md:text-[50px] font-[700] leading-[50px] text-[#FFFFFF] lg:w-4/5 mx-auto">
             Recognized Digital Agency Experts
           </p>
+        
           <div className="flex mb-4 mt-8">
             <a
               className={`flex-grow font-bold text-white py-2 text-lg px-1 hover:cursor-pointer ${
@@ -73,7 +75,9 @@ export default function Experts() {
             >
               EXPERTISE
             </a>
+            
           </div>
+        
           <div className="flex justify-center items-center ">
             <Image
               src={tab}
@@ -83,6 +87,8 @@ export default function Experts() {
               className="w-full md:w-4/5"
               style={{
                 objectFit: "cover",
+                backgroundSize:'cover',
+                backgroundRepeat:'no-repeat'
               }}
             />
           </div>

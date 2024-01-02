@@ -22,7 +22,7 @@ export default function Partner() {
         <Image
           src="https://diginsy.com/wp-content/uploads/2023/06/Group-14101-1536x169.png"
           alt="Picture of the author"
-          width={500}
+          width={1200}
           height={500}
           className="w-full"
           style={{

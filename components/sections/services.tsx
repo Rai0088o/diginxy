@@ -69,7 +69,7 @@ export default function Services() {
   return (
     <>
       <section className="text-gray-600 body-font   ">
-        <div className=" px-5 py-24 md:mx-12">
+        <div className=" px-5 py-12 md:mx-12">
           <div className="flex flex-wrap w-full mb-20 items-center">
             <div className="lg:w-1/3 w-full mb-6 lg:mb-0">
               <div className="flex items-center text-center gap-2 md:gap-6">
@@ -91,10 +91,10 @@ export default function Services() {
               purchase.
             </p>
           </div>
-          <div className="my-20">
+          <div className="my-16">
             <Separator />
           </div>
-          <div className="flex flex-wrap  items-center -m-4  ">
+          <div className="flex flex-wrap  items-center -m-4 mb-4 ">
             {rednerServices.map(({ name, img, desription, title, id }) => (
               <div className=" xl:w-1/4  md:w-1/2 p-2 mt-10" key={name}>
                 <div className="relative p-2 rounded-2xl border-2 group hover:border-red-500 hover:cursor-pointer">

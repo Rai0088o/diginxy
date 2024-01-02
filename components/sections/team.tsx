@@ -31,7 +31,7 @@ export default function Team() {
   ];
   return (
     <section className="text-gray-600 body-font">
-      <div className=" px-5 py-24 md:mx-12">
+      <div className=" px-5 py-12 md:mx-12">
         <div className="flex flex-wrap w-full">
           <div className="flex items-center text-center gap-4 lg:w-1/2 w-full lg:mb-0">
             <h1 className="sm:text-3xl md:text-[16px]   text-[#C91C24]">
@@ -46,17 +46,17 @@ export default function Team() {
         </h1>
         <Separator className="my-7 " />
 
-        <div className="grid md:grid-cols-4 gap-4 w-full mt-16">
+        <div className="grid md:grid-cols-4 gap-4  w-full mt-16">
           {team.map(({ name, img, title }) => (
             <div
-              className="max-w-sm  overflow-hidden shadow-lg rounded-lg hover:border-b-2 border-red-500"
+              className="max-w-md  overflow-hidden shadow-lg rounded-2xl hover:border-b-2 border-red-500"
               key={name}
             >
               <Image
                 className="w-full"
                 src={img}
-                width={430}
-                height={200}
+                width={630}
+                height={300}
                 alt="Sunset in the mountains"
               />
               <div className="px-6 py-4">
