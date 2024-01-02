@@ -8,6 +8,7 @@ import Hero from "./services";
 import Team from "./team";
 import Digital from "./trend";
 import Work from "./work";
+import { Linkedin, Facebook, Twitter } from "lucide-react";
 
 export default function Banner() {
   return (
@@ -17,7 +18,7 @@ export default function Banner() {
           <Header />{" "}
         </div>
         <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-          <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-40 text-[31px] font-semibold py-8 ">
+          <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-40 text-[31px] font-semibold py-8 relative">
             <h2 className=" text-[#FFFFFF] text-[20px] text-center md:text-[30px] md:font-extrabold leading-10 tracking-wider">
               RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
             </h2>
@@ -32,6 +33,31 @@ export default function Banner() {
               SPEAK WITH OUR EXPERTS
             </Button>
           </div>
+          <div className="z-50 absolute right-[230px]  flex-col gap-4 hidden md:flex ">
+  <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+    <Linkedin size={14} color="white" fill="white" />
+  </div>
+  <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+    <Facebook size={14} color="white" fill="white" />
+  </div>
+  <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+    <Twitter size={14} color="white" fill="white" />
+  </div>
+</div>
+
+
+          {/* <div className="z-50 absolute right-[230px]  flex-col gap-4 hidden md:flex ">
+            <div className="border rounded-full p-3">
+              <Linkedin size={14} color="white" fill="white" />
+            </div>
+            <div className="border rounded-full p-3">
+              <Facebook size={14} color="white" fill="white" />{" "}
+            </div>
+            <div className="border rounded-full p-3">
+              {" "}
+              <Twitter size={14} color="white" fill="white" />{" "}
+            </div>
+          </div> */}
 
           <video
             autoPlay
