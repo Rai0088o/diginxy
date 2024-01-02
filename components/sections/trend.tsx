@@ -38,19 +38,20 @@ export default function Digital() {
       }}
       className=" text-gray-600 body-font"
     >
-      <div className="container px-5 py-24 mx-auto">
+      <div className=" px-5 py-24 md:mx-12">
         <div className="flex flex-wrap w-full mb-20">
-          <div className="lg:w-1/3 w-full  lg:mb-0">
-            <div className="flex items-center text-center gap-2 md:gap-6">
-              <h1 className="text-red-700 text-[16px] font-[500] leading-6">
+          <div className="flex flex-wrap w-full">
+            <div className="flex items-center text-center gap-4 lg:w-1/2 w-full lg:mb-0">
+              <h1 className="sm:text-3xl md:text-[16px]   text-[#C91C24]">
                 DIGITAL TRENDS
               </h1>
-              <div className="h-1 w-20 bg-red-500 rounded" />
+              <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
             </div>
-            <h1 className="text-white sm:text-2xl text-3xl font-medium title-font leading-widest w-[350px] md:w-[400px] ">
-              Worth A<span className="text-red-700"> Read</span>
-            </h1>
           </div>
+
+          <h1 className="text-[26px] tracking-widest font-bold text-white">
+            Worth A <span className="text-red-700">Read</span>
+          </h1>
           <Separator className="mt-8" />
         </div>
 

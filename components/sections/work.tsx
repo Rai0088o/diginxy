@@ -59,8 +59,7 @@ export default function Work() {
         <div className="flex flex-wrap mt-10">
           {work.map(({ img, description, title }) => (
             <div key={description} className=" xl:w-1/4 lg:w-1/2 md:w-full">
-              <div className="p-2 rounded-lg    hover:cursor-pointer ">
-                {/* border-2 border-transparent hover:border-red-900 */}
+              <div className="p-2 rounded-lg  hover:cursor-pointer ">
                 <div className="rounded-lg">
                   <Image
                     src={img}
@@ -72,15 +71,6 @@ export default function Work() {
                   />
                 </div>
 
-                {/* <div className="hover:rounded-lg hover:border-2 hover:border-red-900  ">
-                  <Image
-                    src={img}
-                    width={370}
-                    height={180}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    alt="Digincy"
-                  />
-                </div> */}
                 <p className="leading-relaxed text-base text-white ">
                   {description}
                 </p>

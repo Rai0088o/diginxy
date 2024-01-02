@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className=" md:w-full grid grid-cols-1 md:grid-cols-2">
-      <div className="container mx-auto bg-[#EC4414] flex flex-col  py-10 text-left">
+    <div className=" md:w-full grid grid-cols-1 md:grid-cols-2 bg-[#EC4414]">
+      <div className="   flex flex-col  ml-40    py-10 ">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white mx-4 md:mx-14">
           Together We Build Jaw-Dropping Websites
         </h1>
@@ -14,19 +14,19 @@ export default function Footer() {
           into a digital reality!
         </p>
 
-        <div className="flex gap-6 mt-4 md:mt-0 text-[#FFFFFF]">
+        <div className="flex gap-6 my-4  mt-2 md:mt-0 text-[#FFFFFF]">
           <p>
             <Mail />
           </p>
           <p className="">support@diginsy.com</p>
         </div>
-        <div className="flex gap-6 mt-4 md:mt-0 text-[#FFFFFF]">
+        <div className="flex gap-6 my-4 mt-2 md:mt-0 text-[#FFFFFF]">
           <p>
             <Phone />
           </p>
           <p className="">(512) 354-4525</p>
         </div>
-        <div className="flex gap-6 text-[#FFFFFF]">
+        <div className="flex gap-6 my-2 text-[#FFFFFF]">
           <p>
             <MapPin />
           </p>
