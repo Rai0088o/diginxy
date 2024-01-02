@@ -6,7 +6,53 @@ import { Linkedin, Facebook, Twitter } from "lucide-react";
 export default function Footer() {
   return (
     <div className=" md:w-full grid grid-cols-1 md:grid-cols-2 bg-[#EC4414]">
-      <div className="   flex flex-col   md:ml-80 w-3/4    py-10 ">
+      <div className="flex flex-col mx-4 md:mx-14 md:ml-auto  w-full md:w-3/4 py-10">
+        <h1 className="text-2xl sm:text-3xl md:text-7xl font-medium title-font mb-2 text-white">
+          Together We Build
+          <br />{" "}
+          <span className="text-4xl font-bold ">Jaw-Dropping Websites</span>
+        </h1>
+        <p className="leading-relaxed text-base text-white my-2 md:mx-12">
+          We await you! Share your idea with us and we’ll <br />
+          make sure to turn it into a digital reality!
+        </p>
+        <div className="flex flex-col justify-end md:mx-14">
+          <div className="flex gap-6 my-2 text-[#FFFFFF]">
+            <p>
+              <MapPin />
+            </p>
+            <p className="">
+              8870 Business Park, Ste 500 <br />
+              Austin, TX 78759
+            </p>
+          </div>
+          <div className="flex gap-6 my-4 mt-2 md:mt-0 text-[#FFFFFF]">
+            <p>
+              <Mail />
+            </p>
+            <p className="">support@diginsy.com</p>
+          </div>
+          <div className="flex gap-6 my-4 mt-2 md:mt-0 text-[#FFFFFF]">
+            <p>
+              <Phone />
+            </p>
+            <p className="">(512) 354-4525</p>
+          </div>
+        </div>
+        <div className="flex gap-4 justify-center w-full md:w-3/4 ">
+          <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+            <Linkedin size={14} color="white" fill="white" />
+          </div>
+          <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+            <Facebook size={14} color="white" fill="white" />
+          </div>
+          <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+            <Twitter size={14} color="white" fill="white" />
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="   flex flex-col    md:ml-80 w-full md:w-3/4    py-10 ">
         <h1 className="sm:text-3xl text-7xl font-medium title-font mb-2 text-white mx-4 md:mx-14">
           Together We Build
           <br />{" "}
@@ -50,9 +96,9 @@ export default function Footer() {
             <Twitter size={14} color="white" fill="white" />
           </div>
         </div>
-      </div>
-      <div className="flex flex-col bg-[#363636]">
-        <div className="flex   justify-left -mt-10">
+      </div> */}
+      <div className="flex flex-col  bg-[#363636]">
+        <div className="flex  gap-4 justify-left -mt-10">
           <div className="flex flex-col ml-4 justify-center text-center py-10">
             <div className="flex flex-col md:w-1/2 md:pl-12 text-left">
               <h2 className="title-font text-[#FFFFFF] text-[18px] font-bold tracking-wider mb-3">
@@ -90,8 +136,8 @@ export default function Footer() {
               </nav>
             </div>
           </div>
-          <div className="flex flex-col justify-center text-center py-10">
-            <div className="flex flex-col md:w-2/3 md:pl-12 text-left md:mt-12">
+          <div className="flex flex-col  justify-center text-center py-10">
+            <div className="flex flex-col md:w-2/3 md:pl-12 text-left mt-[45px] md:mt-12">
               <h2 className="title-font text-[#FFFFFF] text-[18px] font-bold tracking-wider  mb-3">
                 Services
               </h2>
