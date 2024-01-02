@@ -34,30 +34,16 @@ export default function Banner() {
             </Button>
           </div>
           <div className="z-50 absolute right-[230px]  flex-col gap-4 hidden md:flex ">
-  <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
-    <Linkedin size={14} color="white" fill="white" />
-  </div>
-  <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
-    <Facebook size={14} color="white" fill="white" />
-  </div>
-  <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
-    <Twitter size={14} color="white" fill="white" />
-  </div>
-</div>
-
-
-          {/* <div className="z-50 absolute right-[230px]  flex-col gap-4 hidden md:flex ">
-            <div className="border rounded-full p-3">
+            <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
               <Linkedin size={14} color="white" fill="white" />
             </div>
-            <div className="border rounded-full p-3">
-              <Facebook size={14} color="white" fill="white" />{" "}
+            <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+              <Facebook size={14} color="white" fill="white" />
             </div>
-            <div className="border rounded-full p-3">
-              {" "}
-              <Twitter size={14} color="white" fill="white" />{" "}
+            <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
+              <Twitter size={14} color="white" fill="white" />
             </div>
-          </div> */}
+          </div>
 
           <video
             autoPlay
