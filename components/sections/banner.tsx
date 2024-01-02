@@ -27,7 +27,7 @@ export default function Banner() {
             </h1>
             <Button
               variant={"outline"}
-              className="bg-transparent text-[#FFFFFF] my-20 rounded-none  py-6 px-12"
+              className="text-[17px] font-bold leading-[18.7px] bg-transparent text-[#FFFFFF] hover:bg-transparent hover:text-[#FFFFFF]  my-20 rounded-none py-8 px-14 transform hover:scale-105 transition-transform duration-300"
             >
               SPEAK WITH OUR EXPERTS
             </Button>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { MoveRight } from "lucide-react";
+import { Separator } from "../ui/separator";
 
 export default function Services() {
   const rednerServices = [
@@ -56,28 +57,28 @@ export default function Services() {
       title: "Learn More",
       id: "06",
     },
-    {
-      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14098.png",
-      name: "Creative Branding",
-      desription:
-        "Branding is a key factor which when done right, can help your brand travel miles. Branding is what sets your brand apart from the competition…",
-      title: "Learn More",
-      id: "07",
-    },
+    // {
+    //   img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14098.png",
+    //   name: "Creative Branding",
+    //   desription:
+    //     "Branding is a key factor which when done right, can help your brand travel miles. Branding is what sets your brand apart from the competition…",
+    //   title: "Learn More",
+    //   id: "07",
+    // },
   ];
   return (
     <>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
+      <section className="text-gray-600 body-font   ">
+        <div className=" px-5 py-24 md:mx-12">
+          <div className="flex flex-wrap w-full mb-20 items-center">
             <div className="lg:w-1/3 w-full mb-6 lg:mb-0">
               <div className="flex items-center text-center gap-2 md:gap-6">
                 <h1 className="text-black  text-[16px] font-[500] leading-6">
                   SERVICES{" "}
                 </h1>
-                <div className="h-1 w-20 bg-red-500 rounded" />
+                <div className="h-[2px] w-16 bg-[#E7071A] rounded" />
               </div>
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 leading-tight w-[350px] md:w-[400px] text-gray-900">
+              <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 leading-tight w-[350px] md:w-[400px] text-gray-900">
                 Best Services We Can Offer For You
                 <span className="text-red-700"> !</span>
               </h1>
@@ -90,10 +91,13 @@ export default function Services() {
               purchase.
             </p>
           </div>
+          <div className="my-20">
+            <Separator />
+          </div>
           <div className="flex flex-wrap  items-center -m-4  ">
             {rednerServices.map(({ name, img, desription, title, id }) => (
-              <div className=" xl:w-1/3 md:w-1/2 p-2 mt-10" key={name}>
-                <div className="relative p-2 rounded-lg border-2 group hover:border-red-500 hover:cursor-pointer">
+              <div className=" xl:w-1/4  md:w-1/2 p-2 mt-10" key={name}>
+                <div className="relative p-2 rounded-2xl border-2 group hover:border-red-500 hover:cursor-pointer">
                   <div className="flex justify-between">
                     <Image
                       src={img}
@@ -110,10 +114,11 @@ export default function Services() {
                   <h2 className="text-lg mt-12 text-gray-900 font-medium title-font mb-4">
                     {name}
                   </h2>
-                  <p className="text-base text-[12px] leading-6 tracking-wide">
+
+                  <p className=" text-[11px] font-medium  leading-[26px]">
                     {desription}
                   </p>
-                  <div className="flex ">
+                  <div className="flex mt-8 ">
                     <h3 className="text-[14px] text-gray-900 font-medium leading-6 tracking-wide group-hover:text-red-500">
                       {title}
                     </h3>

@@ -31,16 +31,17 @@ export default function Team() {
   ];
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className=" px-5 py-24 md:mx-12">
         <div className="flex flex-wrap w-full">
-          <div className="lg:w-1/2 w-full flex items-center gap-4 mb-6 lg:mb-0">
-            <p className=" font-small title-font mb-2 text-red-700">
+          <div className="flex items-center text-center gap-4 lg:w-1/2 w-full lg:mb-0">
+            <h1 className="sm:text-3xl md:text-[16px]   text-[#C91C24]">
               MEET THE EXPERTS
-            </p>
-            <div className="h-[2px] w-16 bg-red-700 rounded" />
+            </h1>
+            <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
           </div>
         </div>
-        <h1 className="text-[20px] tracking-widest">
+
+        <h1 className="text-[26px] tracking-widest font-semibold">
           Our <span className="text-red-700">Team</span>
         </h1>
         <Separator className="my-7 " />

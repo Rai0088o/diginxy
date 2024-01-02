@@ -36,44 +36,58 @@ export default function Work() {
   ];
   return (
     <section
-      className="bg-cover bg-center w-full bg-no-repeat body-font relative"
+      className="bg-cover bg-center w-full bg-no-repeat body-font relative "
       style={{
         backgroundImage:
           "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14100-min.png)",
       }}
     >
       <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
-      <div className="container px-5 py-14 mx-auto relative">
-        <div className="flex flex-wrap w-full mb-4">
-          <div className="flex items-center gap-4 lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-red-500">
-              Our Work
+      <div className=" px-5 py-14  md:mx-12 relative">
+        <div className="flex flex-wrap w-full">
+          <div className="flex items-center text-center gap-4 lg:w-1/2 w-full lg:mb-0">
+            <h1 className="sm:text-3xl md:text-[16px]   text-[#C91C24]">
+              OUR WORK
             </h1>
-            <div className="h-1 w-20 bg-red-500 rounded" />
+            <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
           </div>
         </div>
-        <p className="text-[#FFFFFF] text-[20px] md:text-[36px] font-bold leading-tight">
+        <p className="text-[#FFFFFF] text-[20px] md:text-[36px] w-2/5 font-bold leading-tight">
           We’ve Done Lot’s Of Work, Let’s Check Some From Here
         </p>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap mt-10">
           {work.map(({ img, description, title }) => (
             <div key={description} className=" xl:w-1/4 lg:w-1/2 md:w-full">
               <div className="p-2 rounded-lg    hover:cursor-pointer ">
-               <div className="hover:rounded-lg  hover:border-2 hover:border-red-900">
-               <Image
-                  src={img}
-                  width={350}
-                  height={170}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  alt="Digincy"
-                />
+                {/* border-2 border-transparent hover:border-red-900 */}
+                <div className="rounded-lg">
+                  <Image
+                    src={img}
+                    width={370}
+                    height={180}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt="Digincy"
+                    className="hover:rounded-lg"
+                  />
                 </div>
-                <p className="leading-relaxed text-base text-white">
+
+                {/* <div className="hover:rounded-lg hover:border-2 hover:border-red-900  ">
+                  <Image
+                    src={img}
+                    width={370}
+                    height={180}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    alt="Digincy"
+                  />
+                </div> */}
+                <p className="leading-relaxed text-base text-white ">
                   {description}
                 </p>
                 <div className="flex items-center text-center gap-10">
-                  <h1 className="text-[#FFFFFF] text-[14px] group-hover:text-red-500">{title}</h1>
+                  <h1 className="text-[#FFFFFF] text-[14px] hover:text-red-500">
+                    {title}
+                  </h1>
                   <Image
                     src="https://diginsy.com/wp-content/uploads/2023/06/Group-14082-1.png"
                     width={30}
