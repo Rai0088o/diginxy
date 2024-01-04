@@ -3,6 +3,17 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import digincyLogo from "../../public/icons/digency_logo.png";
 import { ChevronDown } from "lucide-react";
+import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,10 +24,40 @@ import {
 } from "@/components/ui/dropdown-menu";
 export default function Header() {
   return (
-    <header className="flex justify-between py-8 mx-4 md:mx-12">
+    <header className="flex  md:justify-between  md:py-8 mx-4 md:mx-12">
       <div className="text-gray-600 body-font w-full">
-        <div className="flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <Image src={digincyLogo} alt="Digincy Logo" width={54} height={54} />
+        <div className="flex md:flex-wrap md:p-5 flex-col md:flex-row items-center">
+          <div className="flex justify-between gap-64 mt-4 md:mt-2">
+            <Image
+              src={digincyLogo}
+              alt="Digincy Logo"
+              width={44}
+              height={44}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+            <div className="md:hidden mt-4">
+              <Sheet>
+                <SheetTrigger asChild>
+                  <div className=" cursor-pointer">
+                    <Menu color="white" width={32} />
+                  </div>
+                </SheetTrigger>
+                <SheetContent>
+                  <SheetHeader>
+                    <SheetTitle>Edit profile</SheetTitle>
+                    <SheetDescription>
+                      Make changes to your profile here. Click save when you're
+                      done.
+                    </SheetDescription>
+                  </SheetHeader>
+                  <div className="grid gap-4 py-4">
+                    <p>hi developer</p>
+                  </div>
+                </SheetContent>
+              </Sheet>
+              {/* <Menu color="white" width={32} /> */}
+            </div>
+          </div>
 
           <nav className="hidden flex-1 ml-44 md:flex flex-wrap items-center text-base justify-center mt-4 md:mt-0">
             <a className="mr-8 text-[#FFFFFF] hover:text-gray-100 hover:cursor-pointer">
