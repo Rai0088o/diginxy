@@ -36,7 +36,7 @@ export default function Work() {
   ];
   return (
     <section
-      className="bg-cover bg-center w-full bg-no-repeat body-font relative "
+      // className=" bg-cover bg-center w-full bg-no-repeat body-font relative"
       style={{
         backgroundImage:
           "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14100-min.png)",

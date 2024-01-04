@@ -73,6 +73,7 @@ export default function Digital() {
                 <h1
                   className=" absolute -top-[40px] text-[64px]  left-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300 
                 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-red-600
+                
                 "
                 >
                   {date}

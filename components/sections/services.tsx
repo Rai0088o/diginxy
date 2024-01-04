@@ -11,7 +11,7 @@ export default function Services() {
       desription:
         "If you’re looking for a company that can develop the perfect mobile application for your brand, then Diginsy is your way to go.",
       title: "Learn More",
-      id: "01",
+      id: "01.",
     },
     {
       img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14098.png",
@@ -19,7 +19,7 @@ export default function Services() {
       desription:
         "Diginsy has the finest website developers in United States than can create compelling and highly functional websites for your brand.",
       title: "Learn More",
-      id: "02",
+      id: "02.",
     },
 
     {
@@ -28,7 +28,7 @@ export default function Services() {
       desription:
         "Harness the power of blockchain with Diginsy. We develop secure and innovative decentralized applications.",
       title: "Learn More",
-      id: "03",
+      id: "03.",
     },
 
     {
@@ -37,7 +37,7 @@ export default function Services() {
       desription:
         "Elevate user experiences with Diginsy’s AR apps. Merging virtual and real, we create standout interactive applications.",
       title: "Learn More",
-      id: "04",
+      id: "04.",
     },
 
     {
@@ -46,7 +46,7 @@ export default function Services() {
       desription:
         "Diginsy has the finest website developers in United States than can create compelling and highly functional websites for your brand.",
       title: "Learn More",
-      id: "05",
+      id: "05.",
     },
 
     {
@@ -55,7 +55,7 @@ export default function Services() {
       desription:
         "To help your brand reach your target audience, we offer state-of-the-art digital marketing services to increase sales and grow your brand online",
       title: "Learn More",
-      id: "06",
+      id: "06.",
     },
     // {
     //   img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14098.png",
@@ -68,7 +68,13 @@ export default function Services() {
   ];
   return (
     <>
-      <section className="text-gray-600 body-font   ">
+      <section
+        className="text-gray-600 body-font  bg-cover bg-center w-full bg-no-repeat body-font relative  "
+        style={{
+          backgroundImage:
+            "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14090.png)",
+        }}
+      >
         <div className=" px-5 py-12 md:mx-12">
           <div className="flex flex-wrap w-full mb-20 items-center">
             <div className="lg:w-1/3 w-full mb-6 lg:mb-0">
@@ -107,7 +113,16 @@ export default function Services() {
                       alt="digincy"
                     />
 
-                    <h2 className="text-[24px] text-white  flex-1 flex justify-end font-bold -mb-10 group-hover:text-red-500 ">
+                    <h2
+                      style={{
+                        WebkitTextStroke: "1px #E0E0E0	",
+                        color: "gray!importent",
+                      }}
+                      className="
+                    
+                    text-[48px] text-white -webkit-text-stroke-1 border-stroke-gray-900 flex-1 flex justify-end font-bold -mb-10 group-hover:text-red-500
+                     "
+                    >
                       {id}
                     </h2>
                   </div>
