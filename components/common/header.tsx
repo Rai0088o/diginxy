@@ -6,10 +6,8 @@ import { ChevronDown } from "lucide-react";
 import { Menu } from "lucide-react";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -46,13 +44,10 @@ export default function Header() {
                   <SheetHeader>
                     <SheetTitle>Edit profle</SheetTitle>
                     <SheetDescription>
-                      Make changes to your profile here. Click save when you're
-                      done.
+                    Hi develoepr
                     </SheetDescription>
                   </SheetHeader>
-                  <div className="grid gap-4 py-4">
-                    <p>hi developer</p>
-                  </div>
+                  
                 </SheetContent>
               </Sheet>
               {/* <Menu color="white" width={32} /> */}
