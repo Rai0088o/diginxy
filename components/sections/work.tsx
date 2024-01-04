@@ -42,9 +42,6 @@ export default function Work() {
           "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14100-min.png)",
       }}
     >
-                      
-
-
       <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
       <div className=" px-5 py-14  md:mx-12 relative">
         <div className="flex flex-wrap w-full">
@@ -59,18 +56,19 @@ export default function Work() {
           We’ve Done Lot’s Of Work, Let’s Check Some From Here
         </p>
 
-        <div className="flex flex-wrap mt-10 ">
+        <div className="flex flex-wrap justify-between mt-10 ">
           {work.map(({ img, description, title }) => (
             <div key={description} className=" xl:w-1/4 lg:w-1/2 md:w-full">
-              <div className="p-2 rounded-lg    ">
-                <div className=" rounded-lg hover:cursor-pointer   ">
+              <div className="p-2 rounded-lg">
+                {/* lg:hover:border lg:border-red-500 */}
+                <div className="rounded-lg hover:cursor-pointer ">
                   <Image
                     src={img}
-                    width={370}
-                    height={180}
+                    width={423}
+                    height={487}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt="Digincy"
-                    className="hover:rounded-lg"
+                    className="rounded-lg hover:rounded-lg"
                   />
                 </div>
 

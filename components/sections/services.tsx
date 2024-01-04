@@ -107,17 +107,15 @@ export default function Services() {
                       alt="digincy"
                     />
 
-                    <h2 className="text-[24px]   flex-1 flex justify-end font-bold -mb-10 group-hover:text-red-500">
+                    <h2 className="text-[24px] text-white  flex-1 flex justify-end font-bold -mb-10 group-hover:text-red-500 ">
                       {id}
                     </h2>
-                    
-                   
                   </div>
-                  <h2 className="text-lg mt-12 text-gray-900 font-medium title-font mb-4 p-[4px]">
+                  <h2 className="text-lg mt-12 text-gray-900 font-medium title-font mb-4  p-[4px]">
                     {name}
                   </h2>
 
-                  <p className=" text-[11px] font-medium  leading-[26px] p-[4px]">
+                  <p className=" text-[11px] font-medium  leading-[26px] p-[4px] ">
                     {desription}
                   </p>
                   <div className="flex mt-8 p-[4px] ">

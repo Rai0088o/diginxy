@@ -48,36 +48,36 @@ export default function Digital() {
               <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
             </div>
           </div>
-
           <h1 className="text-[26px] tracking-widest font-bold text-white">
             Worth A <span className="text-red-700">Read</span>
           </h1>
           <Separator className="mt-8" />
         </div>
-
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           {digital.map(({ img, desription, date }) => (
             <div className="p-4 md:w-1/4 sm:mb-0 mb-6 relative" key={img}>
               <div className="group relative">
-                <div className="rounded-lg overflow-hidden group-hover:cursor-pointer group-hover:text-red-800">
+                <div
+                  className="rounded-lg overflow-hidden group-hover:cursor-pointer group-hover:text-red-800 
+                "
+                >
                   <Image
                     src={img}
                     width={350}
                     height={170}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt="Digincy"
+                    className="hover:shadow-red-950 hover:z-50"
                   />
                 </div>
                 <h1
                   className=" absolute -top-[40px] text-[64px]  left-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300 
                 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-red-600
-                
                 "
                 >
                   {date}
                 </h1>
               </div>
-
               <p className="text-white leading-relaxed mt-2">{desription}</p>
             </div>
           ))}

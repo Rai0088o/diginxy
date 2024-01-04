@@ -22,13 +22,11 @@ export default function Banner() {
             <h2 className=" text-[#FFFFFF] text-[20px] text-center md:text-[30px] md:font-extrabold leading-10 tracking-wider">
               RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
             </h2>
-
             <h1
               style={{
-                color:'#fff',
-                 textShadow: "0px 0px 10px #fff, 0px 0px 0px #cccc",
+                color: "#fff",
+                textShadow: "0px 0px 10px #fff, 0px 0px 0px #cccc",
                 // textShadow:'1px 1px 2px#fff'
-
               }}
               className="text-[#FFFFFF] text-[34px] text-center md:text-[66px]  blur-md invert drop-shadow-4xl md:filter-none  font-bold  leading-[62px] mt-8"
             >
