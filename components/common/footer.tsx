@@ -6,7 +6,7 @@ import { Linkedin, Facebook, Twitter } from "lucide-react";
 export default function Footer() {
   return (
     <div className=" md:w-full grid grid-cols-1 md:grid-cols-2 bg-[#EC4414]">
-      <div className="flex flex-col mx-4 md:mx-14 md:ml-auto  w-full md:w-3/4 py-10">
+      <div className="flex flex-col mx-5 md:mx-16  w-full md:w-3/4 py-10">
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium title-font mb-2 text-white">
           Together We Build
           <br />{" "}

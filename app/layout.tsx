@@ -12,7 +12,7 @@ const metadata: Metadata = {
   title: "Diginsy",
   description: "a digital ",
   icons: {
-    icon: "/icons/digency_logo.png",
+    icon: "/icons/digincylogo.png",
   },
 };
 export { metadata };

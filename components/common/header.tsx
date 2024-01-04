@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
-import digincyLogo from "../../public/icons/digency_logo.png";
+import digincyLogo from "../../public/icons/digincylogo.png";
 import { ChevronDown } from "lucide-react";
 import {
   DropdownMenu,

@@ -76,15 +76,15 @@ export default function Services() {
         }}
       >
         <div className=" px-5 py-12 md:mx-12">
-          <div className="flex flex-wrap w-full mb-20 items-center">
-            <div className="lg:w-1/3 w-full mb-6 lg:mb-0">
+          <div className="flex flex-wrap w-full mb-12 items-center">
+            <div className="lg:w-1/3 w-full  lg:mb-0">
               <div className="flex items-center text-center gap-2 md:gap-6">
                 <h1 className="text-black  text-[16px] font-[500] leading-6">
                   SERVICES{" "}
                 </h1>
                 <div className="h-[2px] w-16 bg-[#E7071A] rounded" />
               </div>
-              <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 leading-tight w-[350px] md:w-[400px] text-gray-900">
+              <h1 className="sm:text-3xl text-2xl font-bold title-font  leading-tight w-[350px] md:w-[400px] text-gray-900">
                 Best Services We Can Offer For You
                 <span className="text-red-700"> !</span>
               </h1>
@@ -97,7 +97,7 @@ export default function Services() {
               purchase.
             </p>
           </div>
-          <div className="my-16">
+          <div className="mt-8 mb-16">
             <Separator />
           </div>
           <div className="flex flex-wrap  items-center -m-4 mb-4 ">
@@ -117,10 +117,11 @@ export default function Services() {
                       style={{
                         WebkitTextStroke: "1px #E0E0E0	",
                         color: "gray!importent",
+                        fontFamily: "Montserrat,sans-serif!important",
                       }}
-                      className="
+                      className="group-hover:text-red-500
                     
-                    text-[48px] text-white -webkit-text-stroke-1 border-stroke-gray-900 flex-1 flex justify-end font-bold -mb-10 group-hover:text-red-500
+                    text-[48px] text-white  flex-1 flex justify-end font-bold -mb-10 
                      "
                     >
                       {id}

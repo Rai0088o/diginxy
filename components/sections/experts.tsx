@@ -29,13 +29,13 @@ export default function Experts() {
             Recognized Digital Agency Experts
           </p>
 
-          <div className="flex mb-4 mt-8">
+          <div className="flex mb-4 mt-8 relative">
             <a
               className={`flex-grow font-bold text-white py-2 text-lg px-1 hover:cursor-pointer ${
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/peWwXP-1.png"
-                  ? "border-b-2 border-white-500"
-                  : ""
+                  ? "border-b-2 border-white-400"
+                  :  "border-b-[1px] border-white-100"
               }`}
               onClick={() =>
                 handleTabClick(
@@ -50,7 +50,7 @@ export default function Experts() {
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/Award-Sponsor-02.png"
                   ? "border-b-2 border-white-500"
-                  : ""
+                  :  "border-b-[1px] border-white-100"
               }`}
               onClick={() =>
                 handleTabClick(
@@ -65,7 +65,7 @@ export default function Experts() {
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/Award-Sponsor-01.png"
                   ? "border-b-2 border-white-500"
-                  : ""
+                  : "border-b-[1px] border-white-100"
               }`}
               onClick={() =>
                 handleTabClick(

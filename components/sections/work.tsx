@@ -72,9 +72,7 @@ export default function Work() {
                   />
                 </div>
 
-                <p className="leading-relaxed text-base text-white ">
-                  {description}
-                </p>
+                <p className=" text-[14px] text-white mt-2">{description}</p>
                 <div className="flex items-center text-center gap-10">
                   <h1 className="text-[#FFFFFF] text-[14px] hover:text-red-500">
                     {title}
