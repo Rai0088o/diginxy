@@ -44,7 +44,7 @@ export default function Header() {
                 </SheetTrigger>
                 <SheetContent>
                   <SheetHeader>
-                    <SheetTitle>Edit profile</SheetTitle>
+                    <SheetTitle>Edit profle</SheetTitle>
                     <SheetDescription>
                       Make changes to your profile here. Click save when you're
                       done.
