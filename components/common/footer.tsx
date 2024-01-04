@@ -7,16 +7,16 @@ export default function Footer() {
   return (
     <div className=" md:w-full grid grid-cols-1 md:grid-cols-2 bg-[#EC4414]">
       <div className="flex flex-col mx-4 md:mx-14 md:ml-auto  w-full md:w-3/4 py-10">
-        <h1 className="text-2xl sm:text-3xl md:text-7xl font-medium title-font mb-2 text-white">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium title-font mb-2 text-white">
           Together We Build
           <br />{" "}
           <span className="text-4xl font-bold ">Jaw-Dropping Websites</span>
         </h1>
-        <p className="leading-relaxed text-base text-white my-2 md:mx-12">
+        <p className="leading-relaxed text-base text-white my-[2px]">
           We await you! Share your idea with us and we’ll <br />
           make sure to turn it into a digital reality!
         </p>
-        <div className="flex flex-col justify-end md:mx-14">
+        <div className="flex flex-col justify-end ">
           <div className="flex gap-6 my-2 text-[#FFFFFF]">
             <p>
               <MapPin />
@@ -206,7 +206,7 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-white ml-16 text-[12px]">
+          <h2 className="text-white ml-16 text-[12px] md:mt-28">
             © 2023 DIGINSY. ALL RIGHTS RESERVED
           </h2>
         </div>

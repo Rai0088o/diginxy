@@ -12,7 +12,7 @@ export default function Work() {
       id: "01",
     },
     {
-      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
+      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-17091-6-min.png",
 
       description:
         "For BJ’s Restaurant Brewhouse, we created an ecommerce website that focused on fetching orders…",
@@ -20,14 +20,14 @@ export default function Work() {
       id: "02",
     },
     {
-      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
+      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14087-min.png",
       description:
         "We developed a UI/UX Design for Typhoon Texas and effectively conducted social media and SEO campaigns",
       title: "Learn More",
       id: "03",
     },
     {
-      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
+      img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14088-1.png",
       description:
         "We developed a UI/UX Design for Typhoon Texas and effectively conducted social media and SEO campaigns",
       title: "Learn More",
@@ -56,11 +56,11 @@ export default function Work() {
           We’ve Done Lot’s Of Work, Let’s Check Some From Here
         </p>
 
-        <div className="flex flex-wrap mt-10">
+        <div className="flex flex-wrap mt-10 ">
           {work.map(({ img, description, title }) => (
             <div key={description} className=" xl:w-1/4 lg:w-1/2 md:w-full">
-              <div className="p-2 rounded-lg  hover:cursor-pointer ">
-                <div className="rounded-lg">
+              <div className="p-2 rounded-lg    ">
+                <div className=" rounded-lg hover:cursor-pointer   ">
                   <Image
                     src={img}
                     width={370}

@@ -82,9 +82,10 @@ export default function Experts() {
             <Image
               src={tab}
               alt="Picture of the author"
-              width={500}
-              height={500}
-              className="w-full md:w-4/5"
+              width={1216}
+              height={273}
+              className='w-full h-auto rounded-lg mx-auto'
+              // className="w-full md:w-4/5"
               style={{
                 objectFit: "cover",
                 backgroundSize:'cover',

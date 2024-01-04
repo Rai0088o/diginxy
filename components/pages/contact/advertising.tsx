@@ -22,16 +22,16 @@ export default function Advertising() {
     >
       <section className="text-gray-600 body-font container mx-auto">
         <div className="md:container md:mx-auto md:px-4">
-          <div className="flex flex-col container  md:mx-auto text-center w-full md:w-2/3 mb-10 md:mb-20">
-            <h2 className="text-base md:text-3xl text-[#FFFFFF] tracking-widest font-medium mb-1 mt-16 md:mt-40">
-              AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL MARKETING
+          <div className="flex flex-col container  md:mx-auto text-center w-full  mb-10 md:mb-20">
+            <h2 className="text-base md:text-4xl text-[#FFFFFF]  font-bold mb-1 mt-16 md:mt-40">
+              AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL 
             </h2>
 
-            <h1 className="md:text-3xl font-medium title-font md:mb-4 text-[#FFFFFF]">
-              AGENCY THAT MAXIMIZES SALES & PROFITABILITY
+            <h1 className="md:text-4xl font-bold title-font md:mb-4 text-[#FFFFFF]">
+            MARKETING AGENCY THAT MAXIMIZES SALES & PROFITABILITY
             </h1>
           </div>
-          <div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
+          <div className="flex flex-col md:flex-row flex-wrap items-center  justify-center pb-10">
             <div className="w-full md:w-1/2 lg:w-1/4 px-8 border-gray-200 border-opacity-60 mb-4 md:mb-0">
               <div className="flex items-center justify-center gap-4 mb-2">
                 <Image
@@ -44,7 +44,7 @@ export default function Advertising() {
                   93%
                 </h2>
               </div>
-              <p className="leading-relaxed md:mb-4 text-1xl text-white font-semibold">
+              <p className="leading-relaxed md:mb-4 text-1xl text-white font-semibold ">
                 CLIENT RETENTION RATE
               </p>
             </div>
@@ -95,7 +95,7 @@ export default function Advertising() {
                   1500+
                 </h2>
               </div>
-              <p className="leading-relaxed text-1xl text-white font-semibold">
+              <p className="leading-relaxed text-1xl text-white font-semibold w-[400px]">
                 CLIENTS WORKING WITH US GLOBALLY
               </p>
             </div>

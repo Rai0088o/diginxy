@@ -6,8 +6,8 @@ export default function Form() {
   return (
     <div>
       {" "}
-      <h1 className="mx-auto container text-4xl md:text-5xl lg:text-6xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
-        We’ve driven over 6,437,349 leads for clients through digital marketing.
+      <h1 className="mx-auto container text-4xl md:text-5xl lg:text-5xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
+        We’ve driven over 6,437,349 leads for clients <br/>through digital marketing.
       </h1>
       <p className="mx-auto container text-base md:text-lg lg:text-xl font-medium text-center mt-4">
         Fill in the form below to instantly schedule a call with us.
@@ -73,7 +73,7 @@ export default function Form() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex items-left text-black bg-gradient-to-r from-red-200 to-pink-400 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-none text-lg">
+                  <button className="flex items-left text-white bg-gradient-to-r from-red-400 to-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded-none text-lg">
                     Submit
                   </button>
                 </div>
@@ -82,15 +82,15 @@ export default function Form() {
           </div>
 
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col w-full md:py-8 mt-8 md:mt-0">
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <div className="lg:w-2/3 px-6 mt-4 lg:mt-0">
               <h1 className="text-gray-900 text-lg mb-1 font-extrabold ">
                 Contact Us
               </h1>
-              <div className="flex gap-6">
+              <div className="flex gap-6  ">
                 <div>
                   <MapPin size={30} />
                 </div>
-                <div className="flex gap-4 w-3/4">
+                <div className="flex gap-4 ">
                   <h2>8870 Business Park, Ste 500 Austin, TX 78759</h2>
                 </div>
               </div>

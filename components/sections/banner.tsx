@@ -26,7 +26,7 @@ export default function Banner() {
             <h1
               style={{
                 color:'#fff',
-                 textShadow: "0px 0px 10px #fff, 0px 0px 0px #cccc;",
+                 textShadow: "0px 0px 10px #fff, 0px 0px 0px #cccc",
                 // textShadow:'1px 1px 2px#fff'
 
               }}

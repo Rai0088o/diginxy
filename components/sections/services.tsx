@@ -97,7 +97,7 @@ export default function Services() {
           <div className="flex flex-wrap  items-center -m-4 mb-4 ">
             {rednerServices.map(({ name, img, desription, title, id }) => (
               <div className=" xl:w-1/4  md:w-1/2 p-2 mt-10" key={name}>
-                <div className="relative p-2 rounded-2xl border-2 group hover:border-red-500 hover:cursor-pointer">
+                <div className="relative p-2 rounded-2xl border-2 group hover:border-red-500 hover:cursor-pointer ">
                   <div className="flex justify-between">
                     <Image
                       src={img}
@@ -113,14 +113,14 @@ export default function Services() {
                     
                    
                   </div>
-                  <h2 className="text-lg mt-12 text-gray-900 font-medium title-font mb-4">
+                  <h2 className="text-lg mt-12 text-gray-900 font-medium title-font mb-4 p-[4px]">
                     {name}
                   </h2>
 
-                  <p className=" text-[11px] font-medium  leading-[26px]">
+                  <p className=" text-[11px] font-medium  leading-[26px] p-[4px]">
                     {desription}
                   </p>
-                  <div className="flex mt-8 ">
+                  <div className="flex mt-8 p-[4px] ">
                     <h3 className="text-[14px] text-gray-900 font-medium leading-6 tracking-wide group-hover:text-red-500">
                       {title}
                     </h3>

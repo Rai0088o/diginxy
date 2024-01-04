@@ -1,8 +1,10 @@
+const { hostname } = require("os");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ["diginsy.com"],
-      },
-}
+  images: {
+    remotePatterns: [{ hostname: "diginsy.com" }],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
