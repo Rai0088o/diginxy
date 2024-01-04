@@ -42,6 +42,9 @@ export default function Work() {
           "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14100-min.png)",
       }}
     >
+                      
+
+
       <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
       <div className=" px-5 py-14  md:mx-12 relative">
         <div className="flex flex-wrap w-full">
