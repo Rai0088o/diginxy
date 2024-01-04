@@ -14,7 +14,7 @@ export default function Form() {
         Fill in the form below to instantly schedule a call with us.
       </p>
       <section className="text-gray-600 body-font relative">
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="mx-44 flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-3/4 sm:w-full overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
             <div className="mx-4 sm:mx-10 lg:mx-20 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-12">
               <div className="flex flex-wrap -m-2">
@@ -84,30 +84,32 @@ export default function Form() {
 
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col w-full md:py-8 mt-8 md:mt-0">
             <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
-              <h1 className="text-gray-900 text-lg mb-1 font-extrabold ">
+              <h1 className="text-gray-900 text-lg mb-6 font-extrabold ">
                 Contact Us
               </h1>
-              <div className="flex gap-2   ">
+              <div className="flex gap-4   ">
                 <div>
-                  <MapPin size={24} />
+                  <MapPin size={20} />
                 </div>
                 <div className="flex gap-2 ">
-                  <h3>8870 Business Park, Ste 500 <br/> Austin, TX 78759</h3>
+                  <h3>
+                    8870 Business Park, Ste 500 <br /> Austin, TX 78759
+                  </h3>
                 </div>
               </div>
-              <div className="flex gap-2 p-[4px]">
+              <div className="flex gap-4 mb-2">
                 <div>
-                  <Mail size={24} />
+                  <Mail size={20} />
                 </div>
                 <div className="flex gap-4 w-3/4">
                   <h3>support@diginsy.com</h3>
                 </div>
               </div>
-              <div className="flex items-center ml-1 gap-2">
+              <div className="flex items-center  gap-4">
                 <div>
-                  <Phone size={24} />
+                  <Phone size={20} />
                 </div>
-                <div className="flex gap-4 w-3/4">
+                <div className="flex">
                   <h3>123-456-7890</h3>
                 </div>
               </div>
