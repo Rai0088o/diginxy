@@ -42,14 +42,14 @@ export default function Digital() {
         <div className="flex flex-wrap w-full mb-20">
           <div className="flex flex-wrap w-full">
             <div className="flex items-center text-center gap-4 lg:w-1/2 w-full lg:mb-0">
-              <h1 className="sm:text-3xl md:text-[16px]   text-[#C91C24]">
+              <h1 className="sm:text-3xl md:text-[16px] font-semibold  text-[#CF0E1A]">
                 DIGITAL TRENDS
               </h1>
               <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
             </div>
           </div>
           <h1 className="text-[26px] tracking-widest font-bold text-white">
-            Worth A <span className="text-red-700">Read</span>
+            Worth A <span className="text-[#E7071A]">Read</span>
           </h1>
           <Separator className="mt-8" />
         </div>

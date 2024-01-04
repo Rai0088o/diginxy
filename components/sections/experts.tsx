@@ -35,7 +35,7 @@ export default function Experts() {
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/peWwXP-1.png"
                   ? "border-b-2 border-white-400"
-                  :  "border-b-[1px] border-white-100"
+                  : "border-b-[1px] border-white-100"
               }`}
               onClick={() =>
                 handleTabClick(
@@ -50,7 +50,7 @@ export default function Experts() {
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/Award-Sponsor-02.png"
                   ? "border-b-2 border-white-500"
-                  :  "border-b-[1px] border-white-100"
+                  : "border-b-[1px] border-white-100"
               }`}
               onClick={() =>
                 handleTabClick(

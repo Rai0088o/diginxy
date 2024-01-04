@@ -34,15 +34,15 @@ export default function Team() {
       <div className=" px-5 py-12 md:mx-12">
         <div className="flex flex-wrap w-full">
           <div className="flex items-center text-center gap-4 lg:w-1/2 w-full lg:mb-0">
-            <h1 className="sm:text-3xl md:text-[16px]   text-[#C91C24]">
+            <h1 className="sm:text-3xl md:text-[16px] font-semibold  text-[#C91C24]">
               MEET THE EXPERTS
             </h1>
             <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
           </div>
         </div>
 
-        <h1 className="text-[26px] tracking-widest font-semibold">
-          Our <span className="text-red-700">Team</span>
+        <h1 className="text-[32px] tracking-widest font-bold">
+          Our <span className="text-[#E7071A]">Team</span>
         </h1>
         <Separator className="my-7 " />
 

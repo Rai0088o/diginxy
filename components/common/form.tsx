@@ -7,7 +7,8 @@ export default function Form() {
     <div>
       {" "}
       <h1 className="mx-auto container text-4xl md:text-5xl lg:text-5xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
-        We’ve driven over 6,437,349 leads for clients <br/>through digital marketing.
+        We’ve driven over 6,437,349 leads for clients <br />
+        through digital marketing.
       </h1>
       <p className="mx-auto container text-base md:text-lg lg:text-xl font-medium text-center mt-4">
         Fill in the form below to instantly schedule a call with us.
@@ -82,32 +83,32 @@ export default function Form() {
           </div>
 
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col w-full md:py-8 mt-8 md:mt-0">
-            <div className="lg:w-2/3 px-6 mt-4 lg:mt-0">
+            <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
               <h1 className="text-gray-900 text-lg mb-1 font-extrabold ">
                 Contact Us
               </h1>
-              <div className="flex gap-6  ">
+              <div className="flex gap-2   ">
                 <div>
-                  <MapPin size={30} />
+                  <MapPin size={24} />
                 </div>
-                <div className="flex gap-4 ">
-                  <h2>8870 Business Park, Ste 500 Austin, TX 78759</h2>
+                <div className="flex gap-2 ">
+                  <h3>8870 Business Park, Ste 500 <br/> Austin, TX 78759</h3>
                 </div>
               </div>
-              <div className="flex gap-6">
+              <div className="flex gap-2 p-[4px]">
                 <div>
-                  <Mail size={30} />
+                  <Mail size={24} />
                 </div>
                 <div className="flex gap-4 w-3/4">
-                  <h2>support@diginsy.com</h2>
+                  <h3>support@diginsy.com</h3>
                 </div>
               </div>
-              <div className="flex gap-6">
+              <div className="flex items-center ml-1 gap-2">
                 <div>
-                  <Phone size={30} />
+                  <Phone size={24} />
                 </div>
                 <div className="flex gap-4 w-3/4">
-                  <h2>123-456-7890</h2>
+                  <h3>123-456-7890</h3>
                 </div>
               </div>
             </div>
