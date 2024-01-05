@@ -18,8 +18,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "work-bg": "url('../public/assets/bg_image.png')",
-        "hero-pattern": "url('./service.png')",
+        // "work-bg": "url('../public/assets/bg_image.png')",
+        // "hero-pattern": "url('./service.png')",
       },
       colors: {
         border: "hsl(var(--border))",

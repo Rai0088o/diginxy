@@ -17,9 +17,36 @@ export default function Banner() {
         <div className="absolute top-0  z-50 w-full">
           <Header />{" "}
         </div>
-        <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-          <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-40 text-[31px] font-semibold py-8 relative">
-            <h2 className=" text-[#FFFFFF] text-[18px] text-center md:text-[30px]   md:font-extrabold leading-10 tracking-wider">
+        <header className="relative flex items-center justify-center h-full md:h-screen -mb-2 md:mb-12 overflow-hidden">
+          {/* <video
+            autoPlay
+            loop
+            muted
+            className="absolute z-10 w-full top-0 "
+            style={{ width: "100%", height: "auto" }}
+          >
+            <source
+              src="https://diginsy.com/wp-content/uploads/2023/10/vid.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video> */}
+          <video
+            autoPlay
+            loop
+            muted
+            className="absolute z-10 w-full top-0 h-full md:h-screen"
+            style={{ objectFit: "cover" }}
+          >
+            <source
+              src="https://diginsy.com/wp-content/uploads/2023/10/vid.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-28 md:mt-40 text-[31px] font-semibold py-8 relative">
+            <h2 className=" text-[#FFFFFF] text-[16px] text-center md:text-[30px]   md:font-extrabold  tracking-wider">
               RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
             </h2>
             <h1
@@ -27,14 +54,14 @@ export default function Banner() {
                 color: "#fff",
                 textShadow: "0 0 15px rgba(255,255,255,.5)",
               }}
-              className="text-[#FFFFFF] text-[28px] text-center md:text-[66px]  md:filter-none  font-bold  leading-[62px] mt-8"
+              className="text-[#FFFFFF] text-[22px] text-center md:text-[66px]  md:filter-none  font-bold  leading-[62px] mt-[1px] md:mt-8"
             >
               Growing Brands Online
             </h1>
 
             <Button
               variant={"outline"}
-              className="text-[12px] md:text-[17px] font-bold leading-[18.7px] bg-transparent text-[#FFFFFF] hover:bg-transparent hover:text-[#FFFFFF]  my-20 rounded-none px-8 py-4 md:py-8 md:px-14 transform hover:scale-105 transition-transform duration-300"
+              className="text-[10px] md:text-[17px] font-bold leading-[18.7px] bg-transparent text-[#FFFFFF] hover:bg-transparent hover:text-[#FFFFFF] my-4 md:my-20 rounded-none px-6 py-3 md:py-8 md:px-14 transform hover:scale-105 transition-transform duration-300"
             >
               SPEAK WITH OUR EXPERTS
             </Button>
@@ -50,19 +77,13 @@ export default function Banner() {
               <Twitter size={14} color="white" fill="white" />
             </div>
           </div>
-
-          <video
-            autoPlay
-            loop
-            muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-          >
+          {/* <video autoPlay loop muted className="absolute z-10 w-full top-0   ">
             <source
               src="https://diginsy.com/wp-content/uploads/2023/10/vid.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
         </header>
         <Services />
         <Work />
