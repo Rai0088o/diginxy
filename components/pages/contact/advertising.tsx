@@ -32,7 +32,7 @@ export default function Advertising() {
             </h1>
           </div>
           <div className="flex flex-col-reverse md:flex-row flex-wrap  w-full  pb-10 md:mr-60 ">
-            <div className="w-full  md:w-4/5 lg:w-1/4   border-gray-200   border-opacity-60 mb-12 md:mb-0">
+            <div className="w-full  md:w-4/5 lg:w-1/4   border-gray-200   border-opacity-60 -mb-8 md:mb-0">
               <div className="flex flex-col md:flex-row items-center justify-start gap-4 md:ml-28 mb-2">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-3.png"
@@ -49,8 +49,8 @@ export default function Advertising() {
               </p>
             </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 md:px-8 md:border-l border-gray-200 border-opacity-60 mb-12  md:mb-0">
-              <div className="flex flex-col  md:flex-row items-center justify-start  md:ml-16 gap-4 mb-2 ">
+            <div className="w-full md:w-1/2 lg:w-1/4 md:px-8 md:border-l border-gray-200 border-opacity-60 mb-6  md:mb-0">
+              <div className="flex flex-col  md:flex-row items-center justify-start  md:ml-16 gap-4 md:mb-2 ">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-2.png"
                   width={42}
@@ -66,7 +66,7 @@ export default function Advertising() {
               </p>
             </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 md:px-8 md:border-l border-gray-200 border-opacity-60 mb-12 md:mb-0">
+            <div className="w-full md:w-1/2 lg:w-1/4 md:px-8 md:border-l border-gray-200 border-opacity-60 mb-4 md:mb-0">
               <div className=" flex flex-col  md:flex-row gap-4 justify-start items-center text-center  md:ml-14  md:mb-2">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-1.png"
@@ -74,7 +74,7 @@ export default function Advertising() {
                   height={25}
                   alt=""
                 />
-                <h2 className="text-3xl sm:text-3xl text-white font-extrabold mb-2">
+                <h2 className="text-3xl sm:text-3xl text-white font-extrabold md:mb-2">
                   2MIL+
                 </h2>
               </div>
@@ -83,7 +83,7 @@ export default function Advertising() {
               </p>
             </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4  md:border-l-none md:border-l border-gray-200 border-opacity-60 mb-10 md:mb-0">
+            <div className="w-full md:w-1/2 lg:w-1/4  md:border-l-none md:border-l border-gray-200 border-opacity-60 mb-6 md:mb-0">
               <div className="flex flex-col  md:flex-row gap-4 md:justify-start text-center items-center -ml-4  md:ml-20 mb-4">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public.png"

@@ -86,7 +86,7 @@ export default function Form() {
               <h1 className="text-gray-900 text-lg mb-6 font-extrabold ">
                 Contact Us
               </h1>
-              <div className="flex gap-12  text-[20px] font-medium  ">
+              <div className="flex gap-6 md:gap-12  text-[20px] font-medium  ">
                 <div>
                   <MapPin size={20} />
                 </div>
@@ -96,7 +96,7 @@ export default function Form() {
                   </h3>
                 </div>
               </div>
-              <div className="flex gap-12 mb-2 text-[20px] font-medium items-center ">
+              <div className="flex gap-6 md:gap-12 mb-2 text-[20px] font-medium items-center ">
                 <div>
                   <Mail size={20} />
                 </div>
@@ -104,7 +104,7 @@ export default function Form() {
                   <h3>support@diginsy.com</h3>
                 </div>
               </div>
-              <div className="flex items-center  gap-12 text-[20px] font-medium item-center">
+              <div className="flex items-center gap-6 md:gap-12 text-[20px] font-medium item-center">
                 <div>
                   <Phone size={20} />
                 </div>
