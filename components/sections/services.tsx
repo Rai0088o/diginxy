@@ -127,14 +127,14 @@ export default function Services() {
                       {id}
                     </h2>
                   </div>
-                  <h2 className="text-lg mt-12 text-gray-900 font-medium title-font mb-4  p-[4px]">
+                  <h2 className="text-lg mt-12 text-gray-900 font-medium title-font  p-[4px]">
                     {name}
                   </h2>
 
                   <p className=" text-[11px] font-medium  leading-[26px] p-[4px] ">
                     {desription}
                   </p>
-                  <div className="flex mt-8 p-[4px] ">
+                  <div className="flex mt-2 p-[4px] ">
                     <h3 className="text-[14px] text-gray-900 font-medium leading-6 tracking-wide group-hover:text-red-500">
                       {title}
                     </h3>
