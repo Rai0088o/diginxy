@@ -32,8 +32,8 @@ export default function Banner() {
             Your browser does not support the video tag.
           </video>
 
-          <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-28 md:mt-40 text-[31px] font-semibold py-8 relative">
-            <h2 className=" text-[#FFFFFF] text-[16px] text-center md:text-[30px]   md:font-extrabold  tracking-wider">
+          <div className=" flex-col z-30 bg-opacity-50 flex items-center  justify-center mt-28 md:mt-40 text-[31px] font-semibold py-8 relative">
+            <h2 className=" text-[#FFFFFF] text-[16px] text-center md:text-[30px] lg:w-4/6 xl:w-full  xl:text-[30px]   md:font-extrabold  tracking-wider ">
               RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
             </h2>
             <h1
@@ -41,7 +41,7 @@ export default function Banner() {
                 color: "#fff",
                 textShadow: "0 0 15px rgba(255,255,255,.5)",
               }}
-              className="text-[#FFFFFF] text-[22px] text-center md:text-[66px]  md:filter-none  font-bold  leading-[62px] mt-[1px] md:mt-8"
+              className="text-[#FFFFFF] text-[22px] text-center md:text-[66px] lg:w-full md:filter-none  font-bold  leading-[62px] mt-[1px] md:mt-8"
             >
               Growing Brands Online
             </h1>
@@ -53,7 +53,7 @@ export default function Banner() {
               SPEAK WITH OUR EXPERTS
             </Button>
           </div>
-          <div className="z-50 absolute right-[230px]  flex-col gap-4 hidden md:flex ">
+          <div className="z-50 absolute right-[230px] lg:right-[110px] lg:top-[300px] xl:top-[364px] xl:right-[230px]  flex-col gap-4 hidden md:flex ">
             <div className="border rounded-full p-3 hover:bg-[#EC3915] hover:cursor-pointer transform hover:scale-105 transition-transform duration-300">
               <Linkedin size={14} color="white" fill="white" />
             </div>

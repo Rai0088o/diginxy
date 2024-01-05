@@ -77,7 +77,7 @@ export default function Experts() {
             </a>
           </div>
 
-          <div className="flex justify-center items-center ">
+          <div className="flex justify-center items-center    lg:mx-36 ">
             <Image
               src={tab}
               alt="Picture of the author"
