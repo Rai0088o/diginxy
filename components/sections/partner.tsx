@@ -17,12 +17,12 @@ export default function Partner() {
           </span>
         </h1>
       </div>
-      <div className="w-full md:w-max-[350px]">
+      <div className="w-full md:w-max-[330px]">
         <Image
           src="https://diginsy.com/wp-content/uploads/2023/06/Group-14101-1536x169.png"
           alt="Picture of the author"
-          width={1200}
-          height={500}
+          width={1180}
+          height={480}
           className="w-full"
           style={{
             objectFit: "cover",
