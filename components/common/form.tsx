@@ -74,7 +74,7 @@ export default function Form() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex items-left text-white bg-gradient-to-r from-red-400 to-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded-none text-lg">
+                  <button className="flex justify-center w-full md:w-1/5   items-left text-white bg-gradient-to-r from-red-400 to-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded-none text-lg">
                     Submit
                   </button>
                 </div>

@@ -22,12 +22,12 @@ export default function Advertising() {
     >
       <section className="text-gray-600 ">
         <div className="">
-          <div className="mx-auto flex flex-col text-center  mb-10 md:mb-12">
-            <h2 className=" md:text-[43px] text-[#FFFFFF]  font-bold md:mb-4 mt-16 md:mt-40">
+          <div className="mt-20 md:mt-0 container md:mx-auto flex flex-col text-center  mb-10 md:mb-12">
+            <h2 className="text-[20px] md:text-[43px] text-[#FFFFFF]  font-bold md:mb-4 mt-16 md:mt-40">
               AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL
             </h2>
 
-            <h1 className="md:text-[40px] font-bold  	 text-[#FFFFFF]">
+            <h1 className="text-[20px] md:text-[40px] font-bold  	 text-[#FFFFFF]">
               MARKETING AGENCY THAT MAXIMIZES SALES & PROFITABILITY
             </h1>
           </div>
