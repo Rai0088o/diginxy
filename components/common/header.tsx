@@ -25,7 +25,7 @@ export default function Header() {
     <header className="flex  md:justify-between  md:py-8 mx-4 md:mx-12">
       <div className="text-gray-600 body-font w-full">
         <div className="flex md:flex-wrap md:p-5 flex-col md:flex-row items-center">
-          <div className="flex justify-between gap-52 mt-4 md:mt-2">
+          <div className="flex justify-between gap-60 mt-4 md:mt-2">
             <Image
               src={digincyLogo}
               alt="Digincy Logo"
