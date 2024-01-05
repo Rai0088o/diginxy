@@ -33,7 +33,7 @@ export default function Advertising() {
           </div>
           <div className="flex flex-col-reverse md:flex-row flex-wrap  w-full  pb-10 md:mr-60 ">
             <div className="w-full  md:w-4/5 lg:w-1/4   border-gray-200   border-opacity-60 -mb-8 md:mb-0">
-              <div className="flex flex-col md:flex-row items-center justify-start gap-4 md:ml-28 mb-2">
+              <div className="flex flex-col md:flex-row items-center justify-start gap-4 -ml-7 md:ml-28 mb-2">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-3.png"
                   width={50}
@@ -50,7 +50,7 @@ export default function Advertising() {
             </div>
 
             <div className="w-full md:w-1/2 lg:w-1/4 md:px-8 md:border-l border-gray-200 border-opacity-60 mb-6  md:mb-0">
-              <div className="flex flex-col  md:flex-row items-center justify-start  md:ml-16 gap-4 md:mb-2 ">
+              <div className="flex flex-col  md:flex-row items-center justify-start -ml-6 md:ml-16 gap-4 md:mb-2 ">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-2.png"
                   width={42}
@@ -67,7 +67,7 @@ export default function Advertising() {
             </div>
 
             <div className="w-full md:w-1/2 lg:w-1/4 md:px-8 md:border-l border-gray-200 border-opacity-60 mb-4 md:mb-0">
-              <div className=" flex flex-col  md:flex-row gap-4 justify-start items-center text-center  md:ml-14  md:mb-2">
+              <div className=" flex flex-col  md:flex-row gap-4 justify-start items-center text-center -ml-3 md:ml-14  md:mb-2">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-1.png"
                   width={27}
