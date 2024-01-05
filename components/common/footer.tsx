@@ -13,7 +13,7 @@ export default function Footer() {
           <span className="text-4xl font-bold ">Jaw-Dropping Websites</span>
         </h1>
         <p className="tracking-tight	 md:leading-relaxed md:text-base text-white my-[2px]">
-          We await you! Share your idea with us and we’ll <br />
+          We await you! Share your idea with us and <br />
           make sure to turn it into a digital reality!
         </p>
         <div className="flex flex-col justify-end ">
