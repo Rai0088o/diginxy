@@ -6,7 +6,7 @@ export default function Form() {
   return (
     <div>
       {" "}
-      <h1 className="mx-auto container text-4xl md:text-5xl lg:text-5xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
+      <h1 className="mx-auto container text-2xl md:text-5xl lg:text-5xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
         We’ve driven over 6,437,349 leads for clients <br />
         through digital marketing.
       </h1>
