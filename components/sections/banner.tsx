@@ -18,19 +18,6 @@ export default function Banner() {
           <Header />{" "}
         </div>
         <header className="relative flex items-center justify-center h-full md:h-screen -mb-2 md:mb-12 overflow-hidden">
-          {/* <video
-            autoPlay
-            loop
-            muted
-            className="absolute z-10 w-full top-0 "
-            style={{ width: "100%", height: "auto" }}
-          >
-            <source
-              src="https://diginsy.com/wp-content/uploads/2023/10/vid.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video> */}
           <video
             autoPlay
             loop
@@ -77,13 +64,6 @@ export default function Banner() {
               <Twitter size={14} color="white" fill="white" />
             </div>
           </div>
-          {/* <video autoPlay loop muted className="absolute z-10 w-full top-0   ">
-            <source
-              src="https://diginsy.com/wp-content/uploads/2023/10/vid.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video> */}
         </header>
         <Services />
         <Work />

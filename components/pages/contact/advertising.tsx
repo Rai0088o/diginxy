@@ -22,18 +22,18 @@ export default function Advertising() {
     >
       <section className="text-gray-600 ">
         <div className="">
-          <div className="mt-20 md:mt-0 container md:mx-auto flex flex-col text-center  mb-10 md:mb-12">
-            <h2 className="text-[20px] md:text-[43px] text-[#FFFFFF]  font-bold md:mb-4 mt-16 md:mt-40">
+          <div className="mt-12 md:mt-0 container  md:mx-auto flex flex-col text-center  mb-10 md:mb-12">
+            <h2 className="text-[17px]  md:text-[43px] text-[#FFFFFF]  font-bold md:mb-4 mt-16 md:mt-40">
               AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL
             </h2>
 
-            <h1 className="text-[20px] md:text-[40px] font-bold  	 text-[#FFFFFF]">
+            <h1 className="text-[17px] md:text-[40px] font-bold  	 text-[#FFFFFF]">
               MARKETING AGENCY THAT MAXIMIZES SALES & PROFITABILITY
             </h1>
           </div>
           <div className="flex flex-col-reverse md:flex-row flex-wrap  w-full  pb-10 md:mr-60 ">
             <div className="w-full  md:w-4/5 lg:w-1/4   border-gray-200   border-opacity-60 -mb-8 md:mb-0">
-              <div className="flex flex-col md:flex-row items-center justify-start gap-4 -ml-7 md:ml-28 mb-2">
+              <div className="flex flex-col md:flex-row items-center justify-start gap-4 -ml-7 md:ml-28  md:mb-2">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-3.png"
                   width={50}
@@ -84,7 +84,7 @@ export default function Advertising() {
             </div>
 
             <div className="w-full md:w-1/2 lg:w-1/4  md:border-l-none md:border-l border-gray-200 border-opacity-60 mb-6 md:mb-0">
-              <div className="flex flex-col  md:flex-row gap-4 md:justify-start text-center items-center -ml-4  md:ml-20 mb-4">
+              <div className="flex flex-col  md:flex-row gap-4 md:justify-start text-center items-center -ml-4  md:ml-20 mb-[1px] md:mb-4">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public.png"
                   width={30}
@@ -100,7 +100,7 @@ export default function Advertising() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 md:gap-10">
+          <div className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 mt-10 mb-6 md:gap-10">
             <Image
               src="https://diginsy.com/wp-content/uploads/2023/12/Amazon-1.png"
               width={190}
