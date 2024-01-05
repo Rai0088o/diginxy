@@ -163,7 +163,7 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-white ml-12 md:ml-16 text-[12px] md:mt-12">
+          <h2 className="text-white ml-12 md:ml-16 mb-[6px] text-[12px] md:mt-12">
             © 2023 DIGINSY. ALL RIGHTS RESERVED
           </h2>
         </div>
