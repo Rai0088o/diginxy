@@ -15,7 +15,7 @@ export default function Form() {
       </p>
       <section className="text-gray-600 body-font relative">
         <div className="md:mx-44 flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-3/4 bg-red-900 md:bg-yellow-200 overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
+          <div className="lg:w-2/3 md:w-3/4  overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
             <div className="mx-4  lg:mx-20 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-12 ">
               <div className="flex flex-wrap  -m-2">
                 <div className="p-2 w-full sm:w-1/2">
