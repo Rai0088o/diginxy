@@ -19,7 +19,7 @@ export default function Banner() {
         </div>
         <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
           <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-40 text-[31px] font-semibold py-8 relative">
-            <h2 className=" text-[#FFFFFF] text-[20px] text-center md:text-[30px] md:font-extrabold leading-10 tracking-wider">
+            <h2 className=" text-[#FFFFFF] text-[20px] text-center md:text-[30px]   md:font-extrabold leading-10 tracking-wider">
               RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
             </h2>
             <h1
@@ -27,14 +27,14 @@ export default function Banner() {
                 color: "#fff",
                 textShadow: "0 0 15px rgba(255,255,255,.5)",
               }}
-              className="text-[#FFFFFF] text-[34px] text-center md:text-[66px]  blur-md invert drop-shadow-4xl md:filter-none  font-bold  leading-[62px] mt-8"
+              className="text-[#FFFFFF] text-[28px] text-center md:text-[66px]  md:filter-none  font-bold  leading-[62px] mt-8"
             >
               Growing Brands Online
             </h1>
 
             <Button
               variant={"outline"}
-              className="text-[17px] font-bold leading-[18.7px] bg-transparent text-[#FFFFFF] hover:bg-transparent hover:text-[#FFFFFF]  my-20 rounded-none py-8 px-14 transform hover:scale-105 transition-transform duration-300"
+              className="text-[12px] md:text-[17px] font-bold leading-[18.7px] bg-transparent text-[#FFFFFF] hover:bg-transparent hover:text-[#FFFFFF]  my-20 rounded-none px-8 py-4 md:py-8 md:px-14 transform hover:scale-105 transition-transform duration-300"
             >
               SPEAK WITH OUR EXPERTS
             </Button>

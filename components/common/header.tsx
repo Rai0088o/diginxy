@@ -43,11 +43,8 @@ export default function Header() {
                 <SheetContent>
                   <SheetHeader>
                     <SheetTitle>Edit profle</SheetTitle>
-                    <SheetDescription>
-                    Hi develoepr
-                    </SheetDescription>
+                    <SheetDescription>Hi develoepr</SheetDescription>
                   </SheetHeader>
-                  
                 </SheetContent>
               </Sheet>
               {/* <Menu color="white" width={32} /> */}

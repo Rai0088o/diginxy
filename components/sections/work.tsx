@@ -52,7 +52,7 @@ export default function Work() {
             <div className="h-[2px] w-16 bg-[#C91C24] rounded" />
           </div>
         </div>
-        <p className="text-[#FFFFFF] text-[20px] md:text-[36px] w-2/5 font-bold leading-tight">
+        <p className="text-[#FFFFFF] text-[22px] md:text-[36px] w-3/4 md:w-2/5 font-bold  md:leading-tight">
           We’ve Done Lot’s Of Work, Let’s Check Some From Here
         </p>
 

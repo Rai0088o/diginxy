@@ -19,19 +19,19 @@ export default function Experts() {
           "url(https://diginsy.com/wp-content/uploads/2023/06/Group-17214-3.png)",
       }}
     >
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="md:text-[22px] font-[700] leading-[34px] text-[#FFFFFF] sm:text-3xl text-2xl  title-font mb-4 ">
+      <div className="container px-5 py-8 md:py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-4 md:mb-20">
+          <h1 className="text-1xl md:text-[22px] font-[700] leading-[34px] text-[#FFFFFF] md:text-3xl   title-font mb-4 ">
             OUR EXPERTS HAVE WON TOP INDUSTRY AWARDS & ARE
           </h1>
 
-          <p className="text-[30px] md:text-[50px] font-[700] leading-[50px] text-[#FFFFFF] lg:w-4/5 mx-auto">
+          <p className="text-[18px] md:text-[50px]  md:font-[700] md:leading-[50px] text-[#FFFFFF] lg:w-4/5 md:mx-auto">
             Recognized Digital Agency Experts
           </p>
 
-          <div className="flex mb-4 mt-8 relative">
+          <div className="flex flex-col md:flex-row  mb-4 mt-8 relative">
             <a
-              className={`flex-grow font-bold text-white py-2 text-lg px-1 hover:cursor-pointer ${
+              className={`flex-grow font-bold text-white py-4 md:py-2 text-lg px-1 hover:cursor-pointer ${
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/peWwXP-1.png"
                   ? "border-b-2 border-white-400"
@@ -46,7 +46,7 @@ export default function Experts() {
               AWARDS
             </a>
             <a
-              className={`font-bold text-white flex-grow py-2 text-lg px-1 hover:cursor-pointer ${
+              className={`font-bold text-white flex-grow py-4 md:py-2 text-lg px-1 hover:cursor-pointer ${
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/Award-Sponsor-02.png"
                   ? "border-b-2 border-white-500"
@@ -61,7 +61,7 @@ export default function Experts() {
               RECOGNITION
             </a>
             <a
-              className={`font-bold text-white flex-grow py-2 text-lg px-1 hover:cursor-pointer ${
+              className={`font-bold text-white flex-grow py-4 md:py-2 text-lg px-1 hover:cursor-pointer ${
                 tab ===
                 "https://diginsy.com/wp-content/uploads/2023/10/Award-Sponsor-01.png"
                   ? "border-b-2 border-white-500"

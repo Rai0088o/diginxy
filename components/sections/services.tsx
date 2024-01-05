@@ -75,16 +75,16 @@ export default function Services() {
             "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14090.png)",
         }}
       >
-        <div className=" px-5 py-12 md:mx-12">
+        <div className=" px-5 py-1 md:py-12 md:mx-12">
           <div className="flex flex-wrap w-full mb-12 items-center">
-            <div className="lg:w-1/3 w-full  lg:mb-0">
+            <div className="lg:w-1/3 w-full mb-4 lg:mb-0">
               <div className="flex items-center text-center gap-2 md:gap-6">
                 <h1 className="text-black  text-[16px] font-[500] leading-6">
                   SERVICES{" "}
                 </h1>
                 <div className="h-[2px] w-16 bg-[#E7071A] rounded" />
               </div>
-              <h1 className="sm:text-3xl text-2xl font-bold title-font  leading-tight w-[350px] md:w-[400px] text-gray-900">
+              <h1 className="sm:text-3xl text-2xl font-bold title-font  leading-tight w-[310px] md:w-[400px] text-gray-900">
                 Best Services We Can Offer For You
                 <span className="text-red-700"> !</span>
               </h1>
