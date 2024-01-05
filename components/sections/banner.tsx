@@ -19,7 +19,7 @@ export default function Banner() {
         </div>
         <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
           <div className=" flex-col z-30 bg-opacity-50 flex items-center justify-center mt-40 text-[31px] font-semibold py-8 relative">
-            <h2 className=" text-[#FFFFFF] text-[20px] text-center md:text-[30px]   md:font-extrabold leading-10 tracking-wider">
+            <h2 className=" text-[#FFFFFF] text-[18px] text-center md:text-[30px]   md:font-extrabold leading-10 tracking-wider">
               RESULTS-DRIVEN CREATIVE DIGITAL AGENCY FOCUSED ON
             </h2>
             <h1
