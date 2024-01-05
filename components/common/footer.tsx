@@ -10,7 +10,7 @@ export default function Footer() {
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium title-font mb-2 text-white">
           Together We Build
           <br />{" "}
-          <span className="text-4xl font-bold ">Jaw-Dropping Websites</span>
+          <span className="text-3xl md:text-4xl font-bold ">Jaw-Dropping Websites</span>
         </h1>
         <p className="tracking-tight	 md:leading-relaxed md:text-base text-white my-[2px]">
           We await you! Share your idea with us and <br />
