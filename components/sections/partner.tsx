@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function Partner() {
   return (
-    <main className="mx-2 md:mx-20 ">
+    <main className="mx-5 md:mx-20 ">
       <div className="my-6 md:my-10 mt-8 sm:mt-10  md:mt-10">
         <div className="flex items-center gap-4">
           <h1 className="text-[#E8081A] pb-4 md:pb-[1px] text-[12px] md:text-[18px] font-medium">
