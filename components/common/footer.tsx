@@ -6,7 +6,7 @@ import { Linkedin, Facebook, Twitter } from "lucide-react";
 export default function Footer() {
   return (
     <div className=" md:w-full grid grid-cols-1 md:grid-cols-2 bg-[#EC4414]">
-      <div className="flex flex-col mx-4 md:mx-16  w-full md:w-3/4 py-10">
+      <div className="flex flex-col mx-6 md:mx-16  w-full md:w-3/4 py-10">
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium title-font mb-2 text-white">
           Together We Build
           <br />{" "}
@@ -206,7 +206,7 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-white ml-16 text-[12px] md:mt-12">
+          <h2 className="text-white ml-12 md:ml-16 text-[12px] md:mt-12">
             © 2023 DIGINSY. ALL RIGHTS RESERVED
           </h2>
         </div>

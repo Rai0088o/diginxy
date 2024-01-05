@@ -40,7 +40,7 @@ export default function Advertising() {
                   height={45}
                   alt=""
                 />
-                <h2 className="text-3xl  sm:text-3xl text-white font-extrabold">
+                <h2 className="text-2xl  sm:text-3xl text-white font-extrabold">
                   93%
                 </h2>
               </div>
@@ -57,7 +57,7 @@ export default function Advertising() {
                   height={40}
                   alt=""
                 />
-                <h2 className="text-3xl sm:text-3xl text-white font-extrabold">
+                <h2 className="text-2xl sm:text-3xl text-white font-extrabold">
                   300+
                 </h2>
               </div>
@@ -74,7 +74,7 @@ export default function Advertising() {
                   height={25}
                   alt=""
                 />
-                <h2 className="text-3xl sm:text-3xl text-white font-extrabold md:mb-2">
+                <h2 className="text-2xl sm:text-3xl text-white font-extrabold md:mb-2">
                   2MIL+
                 </h2>
               </div>
@@ -91,7 +91,7 @@ export default function Advertising() {
                   height={30}
                   alt=""
                 />
-                <h2 className="text-3xl sm:text-3xl text-white font-extrabold">
+                <h2 className="text-2xl sm:text-3xl text-white font-extrabold">
                   1500+
                 </h2>
               </div>
