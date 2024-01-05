@@ -75,7 +75,7 @@ export default function Services() {
             "url(https://diginsy.com/wp-content/uploads/2023/06/Group-14090.png)",
         }}
       >
-        <div className=" px-5 py-1 md:py-12 md:mx-12">
+        <div className=" px-5 py-12 md:py-1 md:mx-12">
           <div className="flex flex-wrap w-full mb-12 items-center">
             <div className="lg:w-1/3 w-full mb-4 lg:mb-0">
               <div className="flex items-center text-center gap-2 md:gap-6">
