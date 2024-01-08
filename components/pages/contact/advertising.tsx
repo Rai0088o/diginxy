@@ -24,7 +24,7 @@ export default function Advertising() {
         <div className="">
           <div className="mt-12 md:mt-0 container  md:mx-auto flex flex-col text-center  mb-10 md:mb-12">
             <h2 className="text-[17px]  md:text-[43px] lg:text-[36px]  xl:text-[43px]  text-[#FFFFFF]  font-bold md:mb-4 mt-16 md:mt-40">
-              AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL 
+              AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL
             </h2>
 
             <h1 className="text-[17px] md:text-[40px] lg:text-[36px]  xl:text-[43px] font-bold  	 text-[#FFFFFF]">
