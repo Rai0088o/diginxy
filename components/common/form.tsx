@@ -16,7 +16,7 @@ export default function Form() {
       <section className="text-gray-600 body-font relative">
         <div className="md:mx-44 flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-3/4  overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
-            <div className="mx-4  lg:mx-20 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-12 ">
+            <div className="mx-4  md:mx-20 lg:mx-4 xl:mx-20 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-12 ">
               <div className="flex flex-wrap  -m-2">
                 <div className="p-2 w-full sm:w-1/2">
                   <div className="relative">
@@ -81,7 +81,7 @@ export default function Form() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col w-full pb-10 md:py-8 mt-8 md:mt-0">
+          <div className="lg:w-2/4 md:w-1/2 xl:w-1/2 bg-white flex flex-col w-full pb-10 md:py-8 mt-8 md:mt-0">
             <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
               <h1 className="text-gray-900 text-lg mb-6 font-extrabold ">
                 Contact Us
