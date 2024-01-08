@@ -95,7 +95,7 @@ export default function Advertising() {
                   1500+
                 </h2>
               </div>
-              <p className=" text-1xl text-white font-semibold md:w-[380px] lg:w-[200px] xl:w-[380px] -ml-4 md:ml-2 -lg:mr-120  xl:ml-2  ">
+              <p className=" text-1xl text-white font-semibold md:w-[380px] lg:w-[200px] xl:w-[380px] -ml-4 md:ml-2 -lg:mr-[80px]  xl:ml-2  ">
                 CLIENTS WORKING WITH US
               </p>
             </div>

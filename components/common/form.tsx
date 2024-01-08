@@ -15,7 +15,7 @@ export default function Form() {
       </p>
       <section className="text-gray-600 body-font relative">
         <div className="md:mx-44 flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-3/4  overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
+          <div className="lg:w-4/5 md:w-3/4 xl:w-2/3 overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
             <div className="mx-4  md:mx-20 lg:mx-4 xl:mx-20 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-12 ">
               <div className="flex flex-wrap  -m-2">
                 <div className="p-2 w-full sm:w-1/2">
@@ -74,7 +74,7 @@ export default function Form() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex justify-center w-full md:w-1/5   items-left text-white bg-gradient-to-r from-red-400 to-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded-none text-lg">
+                  <button className="flex justify-center w-full md:w-1/5 lg:w-2/5 xl:w-1/5  items-left text-white bg-gradient-to-r from-red-400 to-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded-none text-lg">
                     Submit
                   </button>
                 </div>
