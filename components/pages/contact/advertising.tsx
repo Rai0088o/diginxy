@@ -100,7 +100,7 @@ export default function Advertising() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 mt-10 mb-6 md:gap-10 lg:gap-4 xl:gap-10">
+          <div className="flex flex-col md:flex-row items-center justify-center flex-wrap gap-4 mt-10 mb-6 md:gap-10 lg:gap-4 xl:gap-2 2xl:gap-10">
             <Image
               src="https://diginsy.com/wp-content/uploads/2023/12/Amazon-1.png"
               width={190}
