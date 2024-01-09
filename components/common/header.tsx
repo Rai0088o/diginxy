@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 export default function Header() {
   return (
-    <header className="flex  md:justify-between  md:py-8 mx-4 lg:mx-4 xl:mx-12">
+    <header className="flex  md:justify-between  md:py-8 mx-4 lg:mx-4 xl:mx-2 2xl:mx-12">
       <div className="text-gray-600 body-font w-full">
         <div className="flex md:flex-wrap md:p-5 flex-col md:flex-row items-center">
           <div className="flex justify-between gap-60 mt-4 md:mt-2">
@@ -51,7 +51,7 @@ export default function Header() {
             </div>
           </div>
 
-          <nav className="hidden flex-1 lg:ml-8 xl:ml-44 md:flex flex-wrap items-center text-base xl:justify-center lg:justify-between mt-4 md:mt-0">
+          <nav className="hidden flex-1 lg:ml-8 xl:ml-34 2xl:ml-44 md:flex flex-wrap items-center text-base xl:justify-center lg:justify-between mt-4 md:mt-0">
             <a className="mr-8 text-[#FFFFFF] hover:text-gray-100 hover:cursor-pointer">
               Home
             </a>
