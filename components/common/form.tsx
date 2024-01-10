@@ -6,7 +6,7 @@ export default function Form() {
   return (
     <div>
       {" "}
-      <h1 className="mx-auto container text-2xl md:text-5xl lg:text-5xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
+      <h1 className="mx-auto container text-2xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-center bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent mt-10">
         We’ve driven over 6,437,349 leads for clients <br />
         through digital marketing.
       </h1>
@@ -14,9 +14,9 @@ export default function Form() {
         Fill in the form below to instantly schedule a call with us.
       </p>
       <section className="text-gray-600 body-font relative">
-        <div className="md:mx-44 flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-4/5 md:w-3/4 xl:w-5/6 2xl:w-2/3 overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
-            <div className="mx-4  md:mx-20 lg:mx-4 xl:mx-20 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-12 ">
+        <div className="md:mx-44 lg:mx-4 xl:mx-24 2xl:mx-44 flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-4/5 md:w-3/4 xl:w-full 2xl:w-2/3 overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
+            <div className="mx-4  md:mx-10   lg:mx-[2px] xl:mx-[1px] flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-10 ">
               <div className="flex flex-wrap  -m-2">
                 <div className="p-2 w-full sm:w-1/2">
                   <div className="relative">
@@ -29,7 +29,7 @@ export default function Form() {
                     />
                   </div>
                 </div>
-                <div className="p-2 w-full sm:w-1/2">
+                <div className="p-2 w-full sm:w-1/2 ">
                   <div className="relative">
                     <input
                       type="email"
@@ -40,7 +40,7 @@ export default function Form() {
                     />
                   </div>
                 </div>
-                <div className="p-2 w-full sm:w-1/2">
+                <div className="p-2 w-full sm:w-1/2 ">
                   <div className="relative">
                     <input
                       placeholder="Last Name"
@@ -51,7 +51,7 @@ export default function Form() {
                     />
                   </div>
                 </div>
-                <div className="p-2 w-full sm:w-1/2">
+                <div className="p-2 w-full sm:w-1/2 ">
                   <div className="relative">
                     <input
                       placeholder="Phone"
