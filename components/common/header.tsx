@@ -37,7 +37,7 @@ export default function Header() {
               <Sheet>
                 <SheetTrigger asChild>
                   <div className=" cursor-pointer">
-                    <Menu color="white" width={32} />
+                    <Menu color="#FF5B46" width={32} />
                   </div>
                 </SheetTrigger>
                 <SheetContent>
