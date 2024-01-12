@@ -25,7 +25,9 @@ export default function Footer() {
       >
         <div className=" px-5 py-10 mx-10 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className=" flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <Image src={digincylogo} alt="digincy" width={70} height={70} />
+            <div className="flex justify-center md:justify-start ">
+              <Image src={digincylogo} alt="digincy" width={70} height={70} />
+            </div>
             <p className="mt-2 font-semibold text-sm text-[#000000] mb-4">
               Office-Address:
             </p>
@@ -40,7 +42,7 @@ export default function Footer() {
               Contact Us: (512) 354-4525 <br />
               Support@diginsy.Com{" "}
             </p>
-            <div className="flex">
+            <div className="flex justify-center md:mt-10 -mb-8">
               <div className="bg-[#FF5B46] m-2 border-xl p-1 rounded-md">
                 <Image src={fb} alt="facebook" />
               </div>

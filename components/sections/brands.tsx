@@ -14,7 +14,7 @@ export default function Brand() {
             <h2 className="font-regular text-[18px] text-[#222222] tracking-widest font-medium title-font mb-1">
               Results-driven creative digital agency focused on
             </h2>
-            <h1 className="font-regular text-[40px] md:text-[70px] mt-6  container mx-auto leading-[70px]">
+            <h1 className="font-regular text-[24px] md:text-[70px] mt-6  container mx-auto md:leading-[70px]">
               Growing <span className="text-[#FF5B46]">Brands</span> Online
               <br /> With Revolutionary{" "}
               <span className="text-[#FF5B46]">Ideas</span>
@@ -25,13 +25,13 @@ export default function Brand() {
               propels us forward, defining our commitment to excellence.
             </p>
           </div>
-          <div className="flex flex-col items-center text-center">
+          <div className=" flex-col items-center text-center hidden md:block">
             <Image src={android} alt="androiddeveloepr" />
             <Image src={sign} alt="androidsign" />
             <p>Android Developer</p>
           </div>
         </div>
-        <div className="absolute top-[450px]">
+        <div className="absolute top-[450px] hidden md:block">
           <Image src={web} alt="web" />
           <p className="ml-2">Web Developer</p>
         </div>
@@ -39,11 +39,11 @@ export default function Brand() {
           SCHEDULE A MEETING
         </button>
       </div>
-      <div className="absolute right-[525px] top-[600px]">
-        <div className="relative">
+      <div className="absolute right-[525px] top-[600px] hidden md:block">
+        <div className="relative hidden md:block">
           <Image src={vector} alt="vecterbg" />
         </div>
-        <Image src={ui} alt="ui" className="absolute -bottom-24 right-12" />
+        <Image src={ui} alt="ui" className="absolute -bottom-24 right-12 hidden md:block" />
         <p className="absolute -bottom-36 right-12 text-center">
           UI/UX Designer
         </p>
