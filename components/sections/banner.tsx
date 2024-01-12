@@ -1,6 +1,7 @@
 import Footer from "../common/footer";
 import Header from "../common/header";
 import { Button } from "../ui/button";
+import Brand from "./brands";
 import Experts from "./experts";
 import Partner from "./partner";
 import Services from "./services";
@@ -17,7 +18,10 @@ export default function Banner() {
         <div className="absolute top-0  z-50 w-full">
           <Header />{" "}
         </div>
-        <header className="relative flex items-center justify-center h-full md:h-screen -mb-2 md:mb-12 overflow-hidden">
+         <Brand/>
+
+        {/*banner  movie section comment start  */}
+        {/* <header className="relative flex items-center justify-center h-full md:h-screen -mb-2 md:mb-12 overflow-hidden">
           <video
             autoPlay
             loop
@@ -64,7 +68,10 @@ export default function Banner() {
               <Twitter size={14} color="white" fill="white" />
             </div>
           </div>
-        </header>
+        </header> */}
+
+        {/* End */}
+
         <Services />
         <Work />
         <Partner />

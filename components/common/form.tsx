@@ -16,7 +16,7 @@ export default function Form() {
       <section className="text-gray-600 body-font relative">
         <div className="md:mx-44 lg:mx-4 xl:mx-24 2xl:mx-44 flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-4/5 md:w-3/4 xl:w-full 2xl:w-2/3 overflow-hidden sm:mr-0 p-4 sm:p-10 flex items-end justify-start relative">
-            <div className="mx-4  md:mx-10   lg:mx-[2px] xl:mx-[1px] flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-10 ">
+            <div className="mx-4  md:mx-10   lg:mx-[2px] xl:mx-[1px] flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap- ">
               <div className="flex flex-wrap  -m-2">
                 <div className="p-2 w-full sm:w-1/2">
                   <div className="relative">

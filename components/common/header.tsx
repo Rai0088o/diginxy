@@ -52,7 +52,22 @@ export default function Header() {
           </div>
 
           <nav className="hidden flex-1 lg:ml-8 xl:ml-34 2xl:ml-44 md:flex flex-wrap items-center text-base xl:justify-center lg:justify-between mt-4 md:mt-0">
-            <a className="mr-8 text-[#FFFFFF] hover:text-gray-100 hover:cursor-pointer">
+            <a className="mr-16 text-[#FF5B46] font-semibold text-[18px] hover:text-gray-100 hover:cursor-pointer">
+              Services
+            </a>
+            <a className="mr-16 text-[#222222] font-semibold text-[18px] hover:text-gray-100 hover:cursor-pointer">
+              Our Work
+            </a>
+            <a className="mr-16 text-[#222222] font-semibold text-[18px] hover:text-gray-100 hover:cursor-pointer">
+              About
+            </a>
+            <a className="mr-16 text-[#222222] font-semibold text-[18px] hover:text-gray-100 hover:cursor-pointer">
+              Resources
+            </a>
+            <a className="mr-16 text-[#222222] font-semibold text-[18px] hover:text-gray-100 hover:cursor-pointer">
+              Contact
+            </a>
+            {/* <a className="mr-8 text-[#FFFFFF] hover:text-gray-100 hover:cursor-pointer">
               Home
             </a>
             <div className="flex items-center">
@@ -90,9 +105,9 @@ export default function Header() {
             </a>
             <a className="mr-8 text-[#FFFFFF] hover:text-gray-100 hover:cursor-pointer">
               Contact
-            </a>
+            </a> */}
           </nav>
-          <Button className="hidden md:block bg-[#FFFFFF] text-[14px] font-semibold text-[#000000] leading-[16px] rounded-none hover:bg-[#FFFFFF] px-6 mt-4 md:mt-0">
+          <Button className="hover:bg-[#FF5B46] hidden md:block bg-[#FF5B46] text-[14px] font-semibold text-[#FFFFFF] leading-[16px] rounded-sm px-6 mt-4 md:mt-0">
             REQUEST A QUOTE
           </Button>
         </div>
